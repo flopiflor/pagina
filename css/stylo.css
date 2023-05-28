@@ -1,0 +1,179 @@
+ body {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+ }
+    
+header {
+    background-color:darkslategray;
+    padding: 16px 0;
+}
+header h1 {
+    color: aquamarine;
+    font-size: 40px;
+    font-style: italic;
+    display: inline-block;
+    position: relative;
+    bottom: 35px;
+    margin-left: 10px;
+
+}
+nav{
+    background-color: pink;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    flex-grow: 1;
+}
+nav ul li a {
+    color: aquamarine;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+    
+}
+nav ul li a:hover {
+    background-color: rgba(53, 172, 241);
+}
+footer {
+    background-color:pink;
+    clear: both;
+    color:black;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+
+}
+nav ul li a.activo {
+    background-color:#a07c7c
+}
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color:crimson;
+    font-weight: 400;
+
+}
+/*imicio home*/
+
+.bienvenidos {
+    width: 75%;
+    padding-right: 10px;
+    box-sizing: border-box;
+
+}
+.testimonios {
+    width: 25%;
+
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+.bienvenido p {
+    font-size: 20px;
+
+}
+.testimonio {
+    background-color: #ccc;
+    padding: 16px;
+
+}
+.testimonio .cita {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+.testimonio .autor {
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    margin: 12px 0;
+     
+    
+}
+/*termino home*/
+
+/*inicio de nosotros*/
+
+.historia p {
+    font-size: 12px;
+}
+.persona {
+    border: 1px solid #a07c7c;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: #a07c7c;
+
+}
+.personas {
+    display: flex;
+    justify-content: space-between;
+}
+.persona img {
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px  rgb(87, 18, 18);
+
+
+}
+.persona h5,
+.personas h6 {
+    margin: 0;
+    font-weight: normal;
+
+}
+.persona p{
+    font-size: 12px;
+    
+}
+
+/*fin del nosotros*/
+
+
+/*inicio de servicios*/
+
+.servicio {
+    border: 1pc solid #a07c7c;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+.servicio .info h4 {
+color: dodgerblue;
+font-weight: 500px;
+font-style:normal;
+border-bottom: 1px solid darkslateblue;
+padding-bottom: 10px;
+}
+.servicio .info p {
+    font-size: 13px;
+    line-height: 19px;
+
+}
+.servicio img {
+    border-radius: 13px;
+    display: block;
+    max-width: 225px;
+}
+.servicio:nth-child(even) {
+    flex-direction: row-reverse;
+    
+}
